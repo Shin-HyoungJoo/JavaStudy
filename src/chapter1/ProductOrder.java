@@ -1,9 +1,9 @@
 package chapter1;
 
 public class ProductOrder {
-    private String productName;
-    private int price;
-    private int quantity;
+    public String productName;
+    public int price;
+    public int quantity;
 
     public ProductOrder(String productName, int price, int quantity) {
         this.productName = productName;
